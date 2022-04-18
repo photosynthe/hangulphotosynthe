@@ -1,0 +1,64 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: hangulphotosynthe
+  name: 韓㐎
+  version: 1.0
+  author:
+    -光能合成者 telegram@photosynthe
+  description: |
+    rime韓文輸入法
+
+engine:
+  processors:
+    - ascii_composer #韓英切換
+    - speller #輸入輸出轉換
+    - selector #數字鍵控制
+    - express_editor #輸出鍵控制
+  segmentors:
+    - abc_segmentor
+  translators:
+    - script_translator
+
+editor:
+  bindings:
+    Return: commit_script_text
+    Tab: commit_raw_input
+
+switches:
+  - name: ascii_mode
+    states: [ "韓文", "英文" ]
+
+menu:
+  page_size:9
+
+translator:
+  dictionary: hangulphotosynthe
+  preedit_format:
+    - "xlit|qwertyuiopasdfghjklzxcvbnm|ㅏㅓㅗㅜㄱㄷㅂㅈㅅㅎㅑㅕㅛㅠㅋㅌㅍㅊㄹㅐㅔㅡㅣㅇㄴㅁ|"
+    - xform/ㅐㅐ/\ㅒ/
+    - xform/ㅔㅔ/\ㅖ/
+    - xform/ㅗㅏ/\ㅘ/
+    - xform/ㅜㅓ/\ㅝ/
+    - xform/ㅗㅐ/\ㅙ/
+    - xform/ㅜㅔ/\ㅞ/
+    - xform/ㅗㅣ/\ㅚ/
+    - xform/ㅜㅣ/\ㅟ/
+    - xform/ㅡㅣ/\ㅢ/
+    - xform/ㄱㄱ/\ㄲ/
+    - xform/ㄷㄷ/\ㄸ/
+    - xform/ㅂㅂ/\ㅃ/
+    - xform/ㅈㅈ/\ㅉ/
+    - xform/ㅅㅅ/\ㅆ/
+    - xform/ㄹㄱ/\ㄺ/
+    - xform/ㄹㅂ/\ㄼ/
+    - xform/ㄹㅅ/\ㄽ/
+    - xform/ㄹㅎ/\ㅀ/
+    - xform/ㄹㅌ/\ㄾ/
+    - xform/ㄹㅍ/\ㄿ/
+    - xform/ㄹㅁ/\ㄻ/
+    - xform/ㄴㅈ/\ㄵ/
+    - xform/ㄴㅎ/\ㄶ/
+    - xform/ㄱㅅ/\ㄳ/
+    - xform/ㅂㅅ/\ㅄ/
