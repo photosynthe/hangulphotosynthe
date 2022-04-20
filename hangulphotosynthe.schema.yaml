@@ -31,7 +31,7 @@ switches:
     states: [ "韓文", "英文" ]
 
 menu:
-  page_size:9
+  page_size: 9
 
 translator:
   dictionary: hangulphotosynthe
