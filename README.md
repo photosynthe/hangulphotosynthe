@@ -3,7 +3,7 @@
 ## 安裝RIME
 爲便於管理檔案，建議您自定義安裝位置。安裝資料夾名稱爲Rime，因此若安裝位置爲D盤，則資料夾位於D:\Rime。用戶資料夾亦可自定義，爲便於管理，建議置於Rime\userdata。若不知道資料夾位置可右鍵點擊語言欄或點擊開始菜單-小狼毫輸入法，選擇程序資料夾或用戶資料夾。
 ## 安裝韓㐎輸入法
-將輸入法切換爲RIME，將下載好的hangulphotosynthe.schema.yaml與hangulphotosynthe.dict.yaml移動至Rime\weasel-版本號\data，點擊重新部署。右鍵點擊語言欄或點擊開始菜單-小狼毫輸入法，選擇重新部署。
+將輸入法切換爲RIME，將下載好的hangulphotosynthe.schema.yaml與hangulphotosynthe.dict.yaml移動至Rime\weasel-版本號\data，右鍵點擊語言欄或點擊開始菜單-小狼毫輸入法，選擇重新部署。
 ## 添加韓㐎輸入法
 右鍵點擊語言欄或點擊開始菜單-小狼毫輸入法，選擇輸入法設定，勾選「韓㐎」，點擊「中」，選擇你喜歡的配色，點擊「中」。
 ## 選擇韓㐎輸入法
