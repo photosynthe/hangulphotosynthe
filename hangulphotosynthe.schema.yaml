@@ -1,5 +1,4 @@
 # Rime schema
-# encoding: utf-8
 
 schema:
   schema_id: hangulphotosynthe
@@ -12,14 +11,17 @@ schema:
 
 engine:
   processors:
-    - ascii_composer #韓英切換
     - speller #輸入輸出轉換
-    - selector #數字鍵控制
-    - express_editor #輸出鍵控制
+    - express_editor #輸出鍵，必須在speller後面
+    - selector #選字
+    - ascii_composer #韓英切換
   segmentors:
     - abc_segmentor
   translators:
     - script_translator
+
+menu:
+  page_size: 9
 
 editor:
   bindings:
@@ -28,10 +30,7 @@ editor:
 
 switches:
   - name: ascii_mode
-    states: [ "韓文", "英文" ]
-
-menu:
-  page_size: 9
+    states: [韓文,英文]
 
 translator:
   dictionary: hangulphotosynthe
