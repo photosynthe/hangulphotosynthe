@@ -2,7 +2,7 @@
 schema:
   schema_id: hangulphotosynthe
   name: 韓㐎
-  version: 2.0.1
+  version: 2.0.0
   author:
     - 光能合成者 telegram@photosynthe
   description: rime韓文輸入法
@@ -40,10 +40,28 @@ translator:
   dictionary: hangulphotosynthe
   preedit_format:
     - xlit|qwertyuiopasdfghjklzxcvbnm|ㅂㅈㄷㄱㅅㅛㅕㅑㅐㅔㅁㄴㅇㄹㅎㅗㅓㅏㅣㅋㅌㅊㅍㅠㅜㅡ
-    - xform/ㅐ0/\ㅒ/
-    - xform/ㅔ0/\ㅖ/
     - xform/ㄱ0/\ㄲ/
+    - xform/ㄱㅅ/\ㄳ/
+    - xform/ㄴㅈ/\ㄵ/
+    - xform/ㄴㅎ/\ㄶ/
     - xform/ㄷ0/\ㄸ/
+    - xform/ㄹㄱ/\ㄺ/
+    - xform/ㄹㅁ/\ㄻ/
+    - xform/ㄹㅂ/\ㄼ/
+    - xform/ㄹㅅ/\ㄽ/
+    - xform/ㄹㅌ/\ㄾ/
+    - xform/ㄹㅍ/\ㄿ/
+    - xform/ㄹㅎ/\ㅀ/
     - xform/ㅂ0/\ㅃ/
+    - xform/ㅂㅅ/\ㅄ/
     - xform/ㅅ0/\ㅆ/
     - xform/ㅈ0/\ㅉ/
+    - xform/ㅐ0/\ㅒ/
+    - xform/ㅔ0/\ㅖ/
+    - xform/ㅗㅏ/\ㅘ/
+    - xform/ㅗㅐ/\ㅙ/
+    - xform/ㅗㅣ/\ㅚ/
+    - xform/ㅜㅓ/\ㅝ/
+    - xform/ㅜㅔ/\ㅞ/
+    - xform/ㅜㅣ/\ㅟ/
+    - xform/ㅡㅣ/\ㅢ/
